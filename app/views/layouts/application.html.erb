@@ -12,12 +12,12 @@
 </head>
 <body>
   <%= render "layouts/nav" %>
-  <div class="container">
+  <div class="container main-content">
     <div class="row">
       <div class="col-sm-9">
         <%= yield %>
       </div>
-      <div class="col-sm-3">
+      <div class="col-sm-3 sidebar">
         <h4>My Wikiful</h4>
         <%= link_to "Create a Wiki", new_article_path %>
         <h4>Categories</h4>

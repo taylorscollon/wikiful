@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.sidebar {
+  background-color: #eee;
+}
+
+.main-content {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
