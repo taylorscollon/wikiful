@@ -1,0 +1,16 @@
+class CategoriesController < ApplicationController
+  def index
+    @categories = Category.order('name ASC')
+  end
+
+  def create 
+  end
+
+  def show
+    @category = Category.find(params[:id])
+  end
+
+  def new
+  end
+
+end 
