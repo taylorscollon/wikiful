@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   get 'welcome/index'
   root 'welcome#index'
-  resources :articles, :categories
+  resources :articles, :categories, :users
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
